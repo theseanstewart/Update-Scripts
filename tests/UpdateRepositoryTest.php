@@ -1,14 +1,20 @@
 <?php
 use Carbon\Carbon;
 use Mockery as m;
+use Seanstewart\UpdateScripts\UpdateRepository;
 class UpdateRepositoryTest extends PHPUnit_Framework_TestCase {
+
+    public function tearDown()
+    {
+        m::close();
+    }
 
     /**
      * @test
      */
     public function it_tests_log()
     {
-        $repository = $this->getMock('Seanstewart\UpdateScripts\UpdateRepository', ['table'], [
+        $repository = $this->getMock(Seanstewart\UpdateScripts\UpdateRepository::class, ['table'], [
             $resolver = m::mock('Illuminate\Database\ConnectionResolverInterface'),
             $table = 'table'
         ]);
