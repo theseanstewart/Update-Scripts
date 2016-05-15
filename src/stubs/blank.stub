@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class DummyClass
+{
+    /**
+     * A short description about this update
+     *
+     * @var string
+     */
+    public $details = '';
+
+    /**
+     * Run the update
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+    }
+
+    /**
+     * After the update has run
+     *
+     * @return void
+     */
+    public function after()
+    {
+        //
+    }
+}

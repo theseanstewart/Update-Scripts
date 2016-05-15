@@ -1,0 +1,26 @@
+{
+    "name": "seanstewart/update-scripts",
+    "description": "Allows you to run scripts to update your application, just like migrations",
+    "keywords": ["updates", "migrations", "laravel", "laravel5"],
+    "homepage": "https://github.com/theseanstewart/Plan-Config",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Stewart",
+            "email": "sean@ekoim.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.1.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Seanstewart\\UpdateScripts\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
