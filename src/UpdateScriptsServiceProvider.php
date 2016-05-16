@@ -44,7 +44,7 @@ class UpdateScriptsServiceProvider extends ServiceProvider {
         */
         $this->commands([
             \Seanstewart\UpdateScripts\UpdateMakeCommand::class,
-            \SeanStewart\UpdateScripts\UpdateRunCommand::class
+            \Seanstewart\UpdateScripts\UpdateRunCommand::class
         ]);
 
     }
