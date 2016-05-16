@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/theseanstewart/Update-Scripts.svg?branch=master)](https://travis-ci.org/theseanstewart/Update-Scripts)
+
 # Laravel Update Scripts
 
 This Laravel 5 package makes it easy to run scripts that modify data in your database or perform other tasks and behaves just like migrations.
