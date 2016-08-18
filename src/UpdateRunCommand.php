@@ -13,7 +13,7 @@ class UpdateRunCommand extends Command {
      *
      * @var string
      */
-    protected $signature = 'update:run';
+    protected $signature = 'update:run {--force}';
 
     /**
      * The console command description.
