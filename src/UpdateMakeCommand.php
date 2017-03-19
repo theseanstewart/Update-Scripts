@@ -3,7 +3,7 @@ namespace Seanstewart\UpdateScripts;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Console\Migrations\MigrateMakeCommand;
-use Illuminate\Foundation\Composer;
+use Illuminate\Support\Composer;
 
 class UpdateMakeCommand extends BaseCommand
 {
