@@ -6,7 +6,7 @@ use Illuminate\Support\Arr;
 
 class Updater extends Migrator {
 
-    public function run($path, $pretend = false, array $options = [])
+    public function run($path, array $options = [])
     {
         $path = $this->getPath();
 
